@@ -1,0 +1,127 @@
+*{
+	margin:0; 
+	padding:0;
+}
+.navbar {
+    background-color: #020202;
+    width : 100%;
+    height : 90px;
+    /* padding-bottom: -10px; */
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+li {
+    list-style: none;
+    /* color: rgba(255,255,255,.5); */
+    color: #ffffff;
+    float: right;
+    padding: 30px 40px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #1d1f2a;
+}
+
+li:hover {
+    color: yellow;
+}
+
+.navbar img {
+    float: right;
+    padding-top: 2px;
+    padding-right: 180px;
+    width: 100px;
+    /* position: absolute; */
+}
+.box {
+    position: relative;
+    
+}
+.box img {
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    
+}
+
+.fitur {
+    background-color: #1d1f2a;
+    width: 100%;
+    height: 300px ;
+}
+
+.fitur img {
+    margin-top: -5px;
+    margin-left: 70px;
+    width: 110px;
+    margin-bottom: 19px;
+    
+}
+.isi {
+    float: right;
+    margin-right: 300px;
+    margin-top: 90px;
+}
+
+.isi h4{
+    color : #ffffff;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    font-size: 19px;
+}
+
+.isi p {
+    margin-left: 10px;
+}
+
+.tulisan {
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+.tulisan h1 {
+    font-size: 37px;
+}
+
+.tulisan p {
+    width: 500px;
+    height: 500px;
+    float: left;
+    font-size: 20px;
+    color: #64677c;
+}
+
+.tulisan img {
+    margin-top: -114px;
+    width: 1100px;
+    height: 646px;
+    float: right;
+}
+
+.footer {
+    background-color: #020202;
+    width : 100%;
+    height : 130px;
+}
+
+.footer p {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+/* .footer img {
+    width: 100px;
+    position: relative;
+} */
